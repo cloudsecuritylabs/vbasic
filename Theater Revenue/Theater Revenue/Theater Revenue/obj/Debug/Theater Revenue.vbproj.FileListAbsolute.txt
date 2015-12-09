@@ -1,0 +1,10 @@
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\bin\Debug\Theater Revenue.exe.config
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\bin\Debug\Theater Revenue.exe
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\bin\Debug\Theater Revenue.pdb
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\bin\Debug\Theater Revenue.xml
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\obj\Debug\Theater_Revenue.Form1.resources
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\obj\Debug\Theater_Revenue.Resources.resources
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\obj\Debug\Theater Revenue.vbproj.GenerateResource.Cache
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\obj\Debug\Theater Revenue.exe
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\obj\Debug\Theater Revenue.xml
+C:\Users\7student\Desktop\9_22_2015\Theater Revenue\Theater Revenue\obj\Debug\Theater Revenue.pdb

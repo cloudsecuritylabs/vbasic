@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Kayaks_2012DataSet" targetNamespace="http://tempuri.org/Kayaks_2012DataSet.xsd" xmlns:mstns="http://tempuri.org/Kayaks_2012DataSet.xsd" xmlns="http://tempuri.org/Kayaks_2012DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Kayaks_2012ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Kayaks_2012ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.KayakBasu.My.MySettings.GlobalReference.Default.Kayaks_2012ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="KayakTypesTableAdapter" GeneratorDataComponentClassName="KayakTypesTableAdapter" Name="KayakTypes" UserDataComponentName="KayakTypesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kayaks_2012ConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        KayakTypes.Name, RentalPrices.Hourly_Rate, RentalPrices.Daily_Rate, RentalPrices.Weekly_Rate
+FROM            KayakTypes INNER JOIN
+                         RentalPrices ON KayakTypes.ID = RentalPrices.Kayak_Id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Hourly_Rate" DataSetColumn="Hourly_Rate" />
+              <Mapping SourceColumn="Daily_Rate" DataSetColumn="Daily_Rate" />
+              <Mapping SourceColumn="Weekly_Rate" DataSetColumn="Weekly_Rate" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="Kayaks_2012ConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        KayakTypes.Name, RentalPrices.Hourly_Rate, RentalPrices.Daily_Rate, RentalPrices.Weekly_Rate
+FROM            KayakTypes INNER JOIN
+                         RentalPrices ON KayakTypes.ID = RentalPrices.Kayak_Id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RentalPricesTableAdapter" GeneratorDataComponentClassName="RentalPricesTableAdapter" Name="RentalPrices" UserDataComponentName="RentalPricesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kayaks_2012ConnectionString (MySettings)" DbObjectName="dbo.RentalPrices" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[RentalPrices] ([Kayak_Id], [Daily_Rate], [Hourly_Rate], [Weekly_Rate]) VALUES (@Kayak_Id, @Daily_Rate, @Hourly_Rate, @Weekly_Rate)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Kayak_Id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Kayak_Id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="@Daily_Rate" Precision="0" ProviderType="Real" Scale="0" Size="0" SourceColumn="Daily_Rate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="@Hourly_Rate" Precision="0" ProviderType="Real" Scale="0" Size="0" SourceColumn="Hourly_Rate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="@Weekly_Rate" Precision="0" ProviderType="Real" Scale="0" Size="0" SourceColumn="Weekly_Rate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Kayak_Id, Daily_Rate, Hourly_Rate, Weekly_Rate FROM dbo.RentalPrices</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Kayak_Id" DataSetColumn="Kayak_Id" />
+              <Mapping SourceColumn="Daily_Rate" DataSetColumn="Daily_Rate" />
+              <Mapping SourceColumn="Hourly_Rate" DataSetColumn="Hourly_Rate" />
+              <Mapping SourceColumn="Weekly_Rate" DataSetColumn="Weekly_Rate" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Kayaks_2012DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Kayaks_2012DataSet" msprop:Generator_UserDSName="Kayaks_2012DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="KayakTypes" msprop:Generator_TableClassName="KayakTypesDataTable" msprop:Generator_TableVarName="tableKayakTypes" msprop:Generator_TablePropName="KayakTypes" msprop:Generator_RowDeletingName="KayakTypesRowDeleting" msprop:Generator_RowChangingName="KayakTypesRowChanging" msprop:Generator_RowEvHandlerName="KayakTypesRowChangeEventHandler" msprop:Generator_RowDeletedName="KayakTypesRowDeleted" msprop:Generator_UserTableName="KayakTypes" msprop:Generator_RowChangedName="KayakTypesRowChanged" msprop:Generator_RowEvArgName="KayakTypesRowChangeEvent" msprop:Generator_RowClassName="KayakTypesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Hourly_Rate" msprop:Generator_ColumnVarNameInTable="columnHourly_Rate" msprop:Generator_ColumnPropNameInRow="Hourly_Rate" msprop:Generator_ColumnPropNameInTable="Hourly_RateColumn" msprop:Generator_UserColumnName="Hourly_Rate" type="xs:float" />
+              <xs:element name="Daily_Rate" msprop:Generator_ColumnVarNameInTable="columnDaily_Rate" msprop:Generator_ColumnPropNameInRow="Daily_Rate" msprop:Generator_ColumnPropNameInTable="Daily_RateColumn" msprop:Generator_UserColumnName="Daily_Rate" type="xs:float" />
+              <xs:element name="Weekly_Rate" msprop:Generator_ColumnVarNameInTable="columnWeekly_Rate" msprop:Generator_ColumnPropNameInRow="Weekly_Rate" msprop:Generator_ColumnPropNameInTable="Weekly_RateColumn" msprop:Generator_UserColumnName="Weekly_Rate" type="xs:float" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RentalPrices" msprop:Generator_TableClassName="RentalPricesDataTable" msprop:Generator_TableVarName="tableRentalPrices" msprop:Generator_TablePropName="RentalPrices" msprop:Generator_RowDeletingName="RentalPricesRowDeleting" msprop:Generator_RowChangingName="RentalPricesRowChanging" msprop:Generator_RowEvHandlerName="RentalPricesRowChangeEventHandler" msprop:Generator_RowDeletedName="RentalPricesRowDeleted" msprop:Generator_UserTableName="RentalPrices" msprop:Generator_RowChangedName="RentalPricesRowChanged" msprop:Generator_RowEvArgName="RentalPricesRowChangeEvent" msprop:Generator_RowClassName="RentalPricesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kayak_Id" msprop:Generator_ColumnVarNameInTable="columnKayak_Id" msprop:Generator_ColumnPropNameInRow="Kayak_Id" msprop:Generator_ColumnPropNameInTable="Kayak_IdColumn" msprop:Generator_UserColumnName="Kayak_Id" type="xs:int" />
+              <xs:element name="Daily_Rate" msprop:Generator_ColumnVarNameInTable="columnDaily_Rate" msprop:Generator_ColumnPropNameInRow="Daily_Rate" msprop:Generator_ColumnPropNameInTable="Daily_RateColumn" msprop:Generator_UserColumnName="Daily_Rate" type="xs:float" />
+              <xs:element name="Hourly_Rate" msprop:Generator_ColumnVarNameInTable="columnHourly_Rate" msprop:Generator_ColumnPropNameInRow="Hourly_Rate" msprop:Generator_ColumnPropNameInTable="Hourly_RateColumn" msprop:Generator_UserColumnName="Hourly_Rate" type="xs:float" />
+              <xs:element name="Weekly_Rate" msprop:Generator_ColumnVarNameInTable="columnWeekly_Rate" msprop:Generator_ColumnPropNameInRow="Weekly_Rate" msprop:Generator_ColumnPropNameInTable="Weekly_RateColumn" msprop:Generator_UserColumnName="Weekly_Rate" type="xs:float" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

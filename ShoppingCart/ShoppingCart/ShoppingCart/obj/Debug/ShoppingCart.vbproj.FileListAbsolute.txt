@@ -1,0 +1,10 @@
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCart.exe.config
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCart.exe
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCart.pdb
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCart.xml
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.Form1.resources
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.Resources.resources
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.vbproj.GenerateResource.Cache
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.exe
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.xml
+C:\Users\7student\Desktop\Project\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.pdb

@@ -1,0 +1,12 @@
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\bin\Debug\KayakBasu.exe.config
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\bin\Debug\Kayaks 2012.mdf
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\bin\Debug\Kayaks 2012_log.ldf
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\bin\Debug\KayakBasu.exe
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\bin\Debug\KayakBasu.pdb
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\bin\Debug\KayakBasu.xml
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\obj\Debug\KayakBasu.Form1.resources
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\obj\Debug\KayakBasu.Resources.resources
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\obj\Debug\KayakBasu.vbproj.GenerateResource.Cache
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\obj\Debug\KayakBasu.exe
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\obj\Debug\KayakBasu.xml
+C:\Users\7student\Desktop\project\KayakBasu\KayakBasu\obj\Debug\KayakBasu.pdb

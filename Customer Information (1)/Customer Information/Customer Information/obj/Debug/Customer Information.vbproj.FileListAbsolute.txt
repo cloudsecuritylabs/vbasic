@@ -1,0 +1,10 @@
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\bin\Debug\Customer Information.exe.config
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\bin\Debug\Customer Information.exe
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\bin\Debug\Customer Information.pdb
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\bin\Debug\Customer Information.xml
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\obj\Debug\Customer_Information.Form1.resources
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\obj\Debug\Customer_Information.Resources.resources
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\obj\Debug\Customer Information.vbproj.GenerateResource.Cache
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\obj\Debug\Customer Information.exe
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\obj\Debug\Customer Information.xml
+E:\NR.EDU\ITP112 - Visual Basic\Assignments\Week11\Customer Information\Customer Information\obj\Debug\Customer Information.pdb
